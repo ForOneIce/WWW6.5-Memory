@@ -47,4 +47,4 @@
 感谢每一位参与共学的姐妹，是你们的热爱与坚持，让这段旅程变得意义非凡。
 
 ---
-*Made with ❤️ by @HerstoryWeb3 运营团队*
+*Made with ❤️ by @ForOneIce For @HerstoryWeb3*

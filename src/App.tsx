@@ -108,7 +108,7 @@ export default function App() {
           <Sparkles className="w-12 h-12 text-purple-500" />
         </motion.div>
         <h2 className="text-2xl font-serif italic mb-2">正在筹备毕业典礼...</h2>
-        <p className="text-slate-400 animate-pulse">回顾 0xherstory Solidity 共学营的点洞</p>
+        <p className="text-slate-400 animate-pulse">回顾 0xherstory Solidity 共学营的点滴</p>
       </div>
     );
   }
@@ -291,8 +291,8 @@ export default function App() {
               <div className="text-slate-400 text-sm">篇公开推文</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-purple-400">3.31</div>
-              <div className="text-slate-400 text-sm">最后一天高潮</div>
+              <div className="text-4xl font-bold text-purple-400">4.5</div>
+              <div className="text-slate-400 text-sm">HerSolidity黑客松</div>
             </div>
           </div>
         </motion.div>
@@ -488,7 +488,7 @@ export default function App() {
                     icon={<Trophy className="w-8 h-8 text-amber-400" />}
                     title="最有毅力奖"
                     description="被拒绝次数最多，但从未放弃尝试"
-                    awardText="羊村最强韧性"
+                    awardText="最强韧性"
                     participant={stats.topPersistent}
                     metricLabel="被拒次数"
                     metricValue={stats.topPersistent?.rejectedPRs || 0}
@@ -504,9 +504,9 @@ export default function App() {
                   />
                   <AwardCard 
                     icon={<Sparkles className="w-8 h-8 text-pink-400" />}
-                    title="代码女王"
+                    title="git女王"
                     description="成功合并 PR 次数最多的姐妹"
-                    awardText="逻辑与美的缔造者"
+                    awardText="小小git 轻松拿下"
                     participant={stats.topCodeQueen}
                     metricLabel="合并次数"
                     metricValue={stats.topCodeQueen?.mergedPRs || 0}
@@ -532,8 +532,8 @@ export default function App() {
                   <AwardCard 
                     icon={<Flag className="w-8 h-8 text-emerald-400" />}
                     title="压轴勋章"
-                    description="最后一个提交 PR 并成功合并的姐妹"
-                    awardText="坚持到最后，完美收官"
+                    description="最后一个在截至时间前提交 PR 的姐妹"
+                    awardText="坚持到最后一秒"
                     participant={stats.topFinale}
                     metricLabel="收官之作"
                     metricValue="Final"
@@ -542,7 +542,7 @@ export default function App() {
                     icon={<Clock className="w-8 h-8 text-blue-400" />}
                     title="卡点大师"
                     description="周日晚上 11 点后提交最多的姐妹"
-                    awardText="压力是最好的催化剂"
+                    awardText="压力给到deadline"
                     participant={stats.topDeadlineMaster}
                     metricLabel="卡点提交"
                     metricValue={stats.topDeadlineMaster?.deadlinePRs || 0}
@@ -555,15 +555,6 @@ export default function App() {
                     participant={stats.topLoneBrave}
                     metricLabel="默默努力"
                     metricValue={stats.topLoneBrave?.lonePRs || 0}
-                  />
-                  <AwardCard 
-                    icon={<MessageSquare className="w-8 h-8 text-cyan-400" />}
-                    title="话痨勋章"
-                    description="PR 描述文字最长最详细的姐妹"
-                    awardText="你的认真，让代码有了温度"
-                    participant={stats.topChatterbox}
-                    metricLabel="描述字数"
-                    metricValue={stats.topChatterbox?.totalDescriptionLength || 0}
                   />
                   <AwardCard 
                     icon={<Hammer className="w-8 h-8 text-yellow-600" />}
@@ -581,7 +572,7 @@ export default function App() {
                     awardText="羊村作业本守护者"
                     participant={stats.topGuardian}
                     metricLabel="守护次数"
-                    metricValue={stats.topGuardian?.mergesPerformed || "Admin"}
+                    metricValue={stats.topGuardian?.mergesPerformed}
                   />
                 </div>
               </div>
@@ -600,7 +591,7 @@ export default function App() {
               <div className="space-y-8">
                 <div className="section-header">
                   <h2 className="text-4xl font-bold">3月共学 X 数据看板</h2>
-                  <p className="text-pink-300 mt-2">@HerstoryWeb3 运营视角 · 真实数据汇总</p>
+                  <p className="text-pink-300 mt-2">@HerstoryWeb3</p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -786,7 +777,7 @@ export default function App() {
 
       <footer className="border-t border-slate-900 py-12 px-6 text-center">
         <div className="max-w-2xl mx-auto space-y-4">
-          <p className="text-slate-500 text-sm">本网站为 @HerstoryWeb3 运营团队开发的结营纪念页</p>
+          <p className="text-slate-500 text-sm">本网站为@ForOneIce开发的结营纪念页</p>
           <p className="text-slate-600 text-xs">
             © 2026 0xherstory Solidity Camp Graduation. Made with ❤️ for every sister.
           </p>
