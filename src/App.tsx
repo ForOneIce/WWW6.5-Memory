@@ -237,7 +237,7 @@ export default function App() {
           </h1>
           <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed mb-10">
             在这个三月，我们共同见证了每一位姐妹的成长。<br />
-            从第一个 PR 的忐忑，到代码逻辑的严丝合缝，<br />
+            从第一个 PR 的忐忑，到尝试开发自己的demo，<br />
             每一行注释都记录着我们对 Web3 世界的探索与热爱。
           </p>
           
